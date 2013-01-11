@@ -1,0 +1,46 @@
+requirements
+============
+
+- what packages do you want? 
+
+config file
+
+- what packages do you have?
+
+spider PYTHONPATH
+
+- how would you like those organised?
+
+make me a new PYTHONPATH (specific packages)
+collect me a new single PATH (symlink? copy?)
+some other way?
+
+- what do you want to use to install more?
+
+pip
+distribute/easy_install
+setuptools/easy_install
+
+- how do you want things intalled
+
+distutils scripts
+setuptools entry points
+
+config file
+===========
+allow compositions (like buildout's extends)
+including from urls
+
+plugins
+========
+
+- restart trick from buildout
+- types of plugin:
+
+scanner - figure out what version of a distro is available
+installer - install a package 
+          - dependencies? report back?
+          - where to install to?
+
+- do we want generic recipes like buildout?
+(I hope not....)

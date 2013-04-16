@@ -8,7 +8,7 @@ setup(
     name='pacman',
     author='Chris Withers',
     author_email='chris@withers.org',
-    description="Something like buildout, but different",
+    description="Initially, a tool for introspecting and analysing sys.path",
     url='https://github.com/cjw296/pacman',
     packages=find_packages(),
     zip_safe=False,

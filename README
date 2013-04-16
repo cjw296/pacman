@@ -30,6 +30,8 @@ config file
 ===========
 allow compositions (like buildout's extends)
 including from urls
+- install_to path
+- make_one_path?
 
 plugins
 ========

@@ -13,5 +13,8 @@ setup(
     packages=find_packages(),
     zip_safe=False,
     include_package_data=True,
-    cmdclass={'zdist': zdist}
+    cmdclass={'zdist': zdist},
+    extras_require=dict(
+        test=['nose', 'testfixtures'],
+        )
     )
